@@ -1,0 +1,369 @@
+@font-face {
+    font-family: "Roboto Black";
+    src: url(fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "Roboto-Black-Italic";
+    src: url(fonts/Roboto-BlackItalic.ttf);
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto-Bold-Italic";
+    src: url(fonts/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url(fonts/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "Roboto-Light-Italic";
+    src: url(fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium-Italic";
+    src: url(fonts/Roboto-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: "Roboto-Thin-Italic";
+    src: url(fonts/Roboto-ThinItalic.ttf);
+}
+@media screen and (min-width: 1440px) and (max-width: 4000px){
+    html, body { margin:0; padding:0; } 
+    body {
+        position: relative;
+        max-width: 1440px;
+        height: 1024px;
+    
+        background: #FFFFFF;
+        margin: 0 auto;
+    }
+    header {
+        position: absolute;
+        width: 1420px;
+        height: 80px;
+        left: 10px;
+        top: 10px;
+    
+        background: #FFA500;
+        mix-blend-mode: darken;
+        border-radius: 10px;
+    }
+    img.headerImage {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 10px;
+    
+        mix-blend-mode: normal;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    p.articleNav1 {
+        position: absolute;
+        width: 648px;
+        height: 56px;
+        left: 755px;
+        margin-top: 13px;
+    
+        font-size: 48px;
+        font-family: "Roboto Black";
+        line-height: 56px;
+    
+        color: #FFFFFF;
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    h1.headerName {
+        position: absolute;
+        width: 130px;
+        height: 50px;
+        left: 95px;
+        margin-top: 13px;
+        
+        font-family: 'Roboto Black';
+        font-size: 48px;
+        line-height: 56px;
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    a.navHeader {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    a.navHeader1 {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    img.beautiful_pc {
+        position: absolute;
+        width: 720px;
+        height: 720px;
+        left: 720px;
+        top: 110px;
+    }
+    p.mainArticle {
+        position: absolute;
+        width: 681px;
+        height: 455px;
+        left: 48px;
+        top: 120px;
+        
+        font-family: 'Roboto Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    img.footerImage {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: calc(50% - 80px/2 - 670px);
+        margin-top: 0px;
+        
+        mix-blend-mode: normal;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    h1.footerName {
+        position: absolute;
+        width: 130px;
+        height: 50px;
+        left: 90px;
+        margin-top: 15px;
+        
+        font-family: 'Roboto Black';
+        font-size: 48px;
+        line-height: 56px;
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    footer {
+        position: absolute;
+        width: 1420px;
+        height: 80px;
+        left: 10px;
+        top: 933px;
+
+        background: #FFA500;
+        mix-blend-mode: darken;
+        border-radius: 10px;
+    }
+    main {
+        position: absolute;
+        width: 1420px;
+        height: 824px;
+        left: 10px;
+        top: 100px;
+    
+        background: #FFA500;
+        border-radius: 10px;
+    }
+    img.vkpage {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 1353px;
+        margin-top: 10px;
+
+        background-image: url(img/social_networks/VK.png);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    img.telegram {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 1275px;
+        margin-top: 10px;
+
+        background-image: url(img/social_networks/Telegram.png);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+@media (min-width: 400px) and (max-width: 1440px) {
+    body {
+        position: relative;
+        max-width: 1200px;
+    
+        background: #FFFFFF;
+    }
+    header {
+        position: absolute;
+        width: 550px;
+        height: 60px;
+        left: 5px;
+        top: 7px;
+        
+        background: #FFA500;
+        border-radius: 5px;
+    }
+    img.headerImage {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 5px;
+        margin-bottom: 100px;
+        
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
+    }
+    p.articleNav1 {
+        position: absolute;
+        width: 205px;
+        height: 25px;
+        left: 339px;
+        top: 0px;
+        margin-top: 20px;
+        
+        font-family: 'Roboto Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 26px;
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    h1.headerName {
+        position: absolute;
+        width: 60px;
+        height: 25px;
+        left: 65px;
+        top: 6px;
+        
+        font-family: 'Roboto Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 26px;
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    a.navHeader {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    a.navHeader1 {
+        color: #FFFFFF;
+        text-decoration: none;
+        display: none;
+    }
+    img.beautiful_pc {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 130px;
+        top: 490px;
+
+    }
+    p.mainArticle {
+        position: absolute;
+        width: 350px;
+        height: 434px;
+        left: 100px;
+        top: 0px;
+        
+        font-family: 'Roboto Black';
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    img.footerImage {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 5px;
+    }
+    div.pcimg {
+        margin:0;
+        padding: 0;
+    }
+    h1.footerName {
+        position: absolute;
+        width: 60px;
+        height: 25px;
+        left: 65px;
+        top: 5px;
+        
+        font-family: 'Roboto Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 26px;
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    footer {
+        position: absolute;
+        width: 550px;
+        height: 60px;
+        left: 5px;
+        top: 860px;
+        
+        background: #FFA500;
+        border-radius: 5px;
+    }
+    main {
+        position: absolute;
+        width: 550px;
+        height: 776px;
+        left: 5px;
+        top: 75px;
+
+        background: #FFA500;
+        border-radius: 5px;
+    }
+    img.vkpage {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        margin-right: 5px;
+        left: 450px;
+
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    img.telegram {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        left: 505px;
+        
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}
